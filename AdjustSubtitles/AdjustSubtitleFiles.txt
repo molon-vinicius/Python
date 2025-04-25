@@ -1,0 +1,22 @@
+This project was developed to adjust .srt files not synchronized with the movie, creating a new file with the time of subtitle adjusted. 
+
+With this script it will be possible to subtract or add time (in seconds) to adjust the synchronization.
+
+Example:
+Adding 23 seconds in first example and subtracting 10 seconds in the second example.
+
+| Pattern of subtitle time |
+start subtitle => end subtitle
+(hh:mm:ss,fff) => (hh:mm:ss,fff)
+
+Example 01: Original file (+23) 
+00:01:20,078 => 00:01:23,427 #first line of subtitle
+
+With the adjust of the script
+00:01:43,078 => 00:01:46,427 #first line adjusted in the new file
+
+Example 02: Original file (-10)
+00:01:20,078 => 00:01:23,427 #first line of subtitle
+
+With the adjust of the script
+00:01:10,078 => 00:01:13,427 #first line adjusted in the new file
